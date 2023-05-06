@@ -2,9 +2,19 @@
     "name": "hyperf-helper/dependency",
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/lazychanger/hyperf-helper-dependency",
     "keywords": [
         "php",
-        "hyperf"
+        "hyperf",
+        "dependecy",
+        "annotation"
+    ],
+    "authors": [
+        {
+            "email": "chengliang.duan@gmail.com",
+            "name": "ChengLiang Duan",
+            "homepage": "https://github.com/lazychanger"
+        }
     ],
     "description": "hyperf hylper dependency",
     "autoload": {
