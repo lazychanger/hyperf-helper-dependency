@@ -17,7 +17,7 @@ composer requpre hyperf-helper/dependency
 
 ## How to use
 
-1. ** We need to add dependencies collected from `DependencyCollector` to `Container` **
+1. **We need to add dependencies collected from `DependencyCollector` to `Container`**
 
 ```php
 <?php
@@ -57,7 +57,7 @@ return ApplicationContext::setContainer($container);
 
 ```
 
-2. ** Use `Dependency` to annotate the dependent class you want to define **
+2. **Use `Dependency` to annotate the dependent class you want to define**
 
 ```php
 
@@ -75,7 +75,7 @@ class ExampleService implements ExampleServiceInterface {
 
 ```
 
-3. ** Happy using `Inject` everywhere**
+3. **Happy using `Inject` everywhere**
 
 ```php
 <?php
