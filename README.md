@@ -1,4 +1,8 @@
 # hyperf-helper/dependency
+## Badges
+[![PHP Composer](https://github.com/lazychanger/hyperf-helper-dependency/actions/workflows/php.yml/badge.svg)](https://github.com/lazychanger/hyperf-helper-dependency/actions/workflows/php.yml)
+[![PHPUnit](https://github.com/lazychanger/hyperf-helper-dependency/actions/workflows/test.yml/badge.svg)](https://github.com/lazychanger/hyperf-helper-dependency/actions/workflows/test.yml)
+[![Release](https://github.com/lazychanger/hyperf-helper-dependency/actions/workflows/release.yml/badge.svg)](https://github.com/lazychanger/hyperf-helper-dependency/actions/workflows/release.yml)
 ## Introduction
 Easy, simple and elegant way to add dependencies in Hyperf
 
