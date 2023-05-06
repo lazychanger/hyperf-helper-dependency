@@ -32,7 +32,11 @@
         "hyperf/di": "^3.0"
     },
     "require-dev": {
+        "phpstan/phpstan": "^1.0",
         "swoole/ide-helper": "^4.5"
+    },
+    "suggest": {
+        "swow/swow": "Required to create swow components."
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -41,6 +45,7 @@
         "sort-packages": true
     },
     "scripts": {
+        "test": "phpunit -c phpunit.xml --colors=always",
         "analyse": "phpstan analyse --memory-limit 1024M -l 0 ./src"
     },
     "extra": {
