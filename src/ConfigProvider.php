@@ -29,10 +29,10 @@ class ConfigProvider
                     'paths' => [
                         __DIR__,
                     ],
+                    'collectors' => [
+                        DependencyCollector::class,
+                    ]
                 ],
-                'collectors' => [
-                    DependencyCollector::class,
-                ]
             ],
         ];
     }
