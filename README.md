@@ -9,7 +9,7 @@ Easy, simple and elegant way to add dependencies in Hyperf
 ## Start
 
 ```
-composer requpre hyperf-helper/dependency
+composer require hyperf-helper/dependency
 ```
 
 ## Annotation Params
