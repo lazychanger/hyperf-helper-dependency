@@ -30,6 +30,11 @@ class Dependency implements AnnotationInterface
         DependencyCollector::collectorDependency($className, $this->identifier, $this->priority);
     }
 
+    public function collectClassConstant(string $className, ?string $target): void
+    {
+    }
+
+
     public function collectMethod(string $className, ?string $target): void
     {
     }

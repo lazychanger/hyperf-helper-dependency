@@ -28,8 +28,8 @@
         }
     },
     "require": {
-        "php": ">=8.0",
-        "hyperf/di": "^3.0"
+        "php": ">=8.1",
+        "hyperf/di": "~3.1"
     },
     "require-dev": {
         "phpstan/phpstan": "^1.0",
